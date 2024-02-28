@@ -7,3 +7,6 @@ def app(request):
 
 def appabt(request):
     return HttpResponse("Ask about me")
+
+def contact(request):
+    return HttpResponse("HOLA")
